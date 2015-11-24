@@ -1,3 +1,22 @@
+## System Check Practice
+
+## To clone down:
+
+* Run this in your terminal: `git clone git@github.com:EliseFitz15/contact-list-postgres.git`
+* Then go into the directory `cd contact-list-postgres`
+* `bundle` then `rspec`
+* Work through the test errors
+
+##### When finished it you would like to push this to your github do the following:
+
+* In the terminal: `git remote rm origin`
+* Go to Github and set up your own repo
+* Terminal: `git remote add origin <your-remote-repo-url>`
+* Then add and push your own work.
+  - `git add .`
+  - `git commit -m "initial commit"`
+  - `git push origin master`
+
 ### Instructions
 
 Convert this contacts list app to read and write information to a PostgreSQL database instead of a TXT file.
