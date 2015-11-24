@@ -1,0 +1,19 @@
+<h1>Contact List</h1>
+
+<ul id="contact-list">
+  <% @contacts.each do |contact| %>
+    <li class="contact">
+      <%= contact %>
+    </li>
+  <% end %>
+</ul>
+
+<fieldset>
+  <legend>Add Contact</legend>
+  <form method="post" action="/contacts">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" />
+
+    <input type="submit" value="Submit" />
+  </form>
+</fieldset>
